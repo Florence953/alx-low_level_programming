@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @dest: string to be appended to
- * @src: string to append
+ * _strcat - concannates two strings
+ * @dest: copy to
+ * @src: copy from
  * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
-	dest[i] = '\0'
+	dest[i] = '\0';
 	return (dest);
 }
